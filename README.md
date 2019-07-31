@@ -3,7 +3,7 @@
 
 ## 1. Planteamiento del problema
 
-No existe un aplicativo web que brinde informacion exacta, especifica y con un toque cultural a los visitantes que van a  ciudades, playas, pueblos, corregimientos e incluso veredas. La informacion que encuentras en las redes sociales, paginas y peculiarmenete en una pagina web propia del gobierno de Colombia y soportada por [I'm an inline-style link](http://www.procolombia.co/) llamada [Colombia Travel](http://www.colombia.travel), esta mal organizada y de alguna manera muy en general, alli basicamente solo puedes visualizar informacion y obtener ayuda turistica 📍.
+No existe un aplicativo web que brinde informacion exacta, especifica y con un toque cultural a los visitantes que van a  ciudades, playas, pueblos, corregimientos e incluso veredas. La informacion que encuentras en las redes sociales, paginas y peculiarmenete en una pagina web propia del gobierno de Colombia y soportada por [PROCOLOMBIA](http://www.procolombia.co/) llamada [Colombia Travel](http://www.colombia.travel), esta mal organizada y de alguna manera muy en general, alli basicamente solo puedes visualizar informacion y obtener ayuda turistica 📍.
 
 Otro problema que se logra evidenciar es que  los turistas sólo van a lugares muy conocidos y/o populares en vez  de  visitar otros terriotorios a los que probablemente les pueda interesar segun sus ultimas paradas turisticas, mas no conocian.
 
@@ -43,20 +43,21 @@ Un directorio donde las personas puedan ver las festividades,en general todo lo 
 
 * Los turistas podran crear sus perfiles para ver la informacion completa, enfocada en sus gustos y lugares anteriormente visitados.Tambien podrar registrar y redimidir sus Bonos, adicionalemnte podran hacer reservaciones y comunicarse con el duenno del lugar turistico.
 
-* Ferias y fiestas
+### Ferias y fiestas
 
-* Crear perfiles para los responsables de cada zona
+### Crear perfiles para los responsables de cada zona
 - Policia
 - Oficina de turismo
 - Hospitales y emergencias
 - Transporte local seguro
 - Bancos locales
 
-* Opciones de toures
+### Opciones de toures
 - Tour Regional
 - Tour Municipal
  
  ## 4. Estado del arte
+ 
 Actualmente existe una aplicación llamada ColombiaTravel la cual brinda un calendario de festividades, información de hoteles, restaurantesy lugares turísticos.
 
 El valor agregado de PageTour es que permitirá vender servicios turísticos, es decir, no sólo ver la información sino también interactuar y reservar. La idea de PageTour es prestar un servicio integral de información y adicionalmente la interacción con servicios que diferentes entidades pueden prestar.
@@ -65,37 +66,34 @@ El valor agregado de PageTour es que permitirá vender servicios turísticos, es
 
 Dillinger uses a number of open source projects to work properly:
 
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](http://breakdance.io) - HTML to Markdown converter
+* Github para el repositorio
+* Visual Code Editor
+* Git local
+* Node.js
+* React.js
+* HTML
+* CSS responsive
+* Vanilla JavaScript
 * [jQuery] - duh
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
- 
  #### 5.1 Plugins usados
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
 | Plugin | README |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
 | GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| Datos Abiertos de Colombia| [https://www.datos.gov.co[PlGa] |
 
 #### 5.2 WorkFlow - Branches :octocat:
 
 - Rama Master
 - Rama por features
 - Rama de integracion Development
+- Si es necesario crear un rama para el primer Release.
+
+Nota: De acuerdo a la funcionalidad y al numero de cambios 
 
 ## 6. Equipo de desarrollo
 
@@ -106,10 +104,9 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 
 ## 7. Instalacion
 
-
+Proximanmente...
 
 License
 ----
-
 MIT
 
