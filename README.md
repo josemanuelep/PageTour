@@ -16,21 +16,21 @@ Colombia es el segundo país con mayor biodiversidad en el mundo, actualmente ha
 Aplicativos de esta indole son perfectos para incentivar acciones por el clima, los ecosistemas, la vida silvestre y el agua, por lo que es trascendental animar a los visitantes locales y turistas a realizar acciones en pro del anteriormente mencionado, esto ultimo en busca de hacer caso al llamado que nos hace el PNUD ♻️ que son:
 
 * [OBJETIVO 6: AGUA LIMPIA Y SANEAMIENTO](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-6-clean-water-and-sanitation.html)
-*[OBJETIVO 8: TRABAJO DECENTE Y CRECIMIENTO ECONÓMICO](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-8-decent-work-and-economic-growth.html)
-*[BJETIVO 12: PRODUCCIÓN Y CONSUMO RESPONSABLE](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html)
-[OBJETIVO 13: ACCIÓN POR EL CLIMA](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-13-climate-action.html)
-[OBJETIVO 14: VIDA SUBMARINA](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-14-life-below-water.html)
-[OBJETIVO 15: VIDA DE ECOSISTEMAS TERRESTRES](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-15-life-on-land.html)
+* [OBJETIVO 8: TRABAJO DECENTE Y CRECIMIENTO ECONÓMICO](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-8-decent-work-and-economic-growth.html)
+* [BJETIVO 12: PRODUCCIÓN Y CONSUMO RESPONSABLE](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html)
+* [OBJETIVO 13: ACCIÓN POR EL CLIMA](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-13-climate-action.html)
+* [OBJETIVO 14: VIDA SUBMARINA](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-14-life-below-water.html)
+* [OBJETIVO 15: VIDA DE ECOSISTEMAS TERRESTRES](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-15-life-on-land.html)
 
 La idea es dar puntos redimibles en servicios turisticos de la zona donde el turista o visitante que cumpla algunos objetivos relacionados con lo anterior aplicados a la zona que visita.
 
--Recoger basuras (Bono de 5.000 COP)
--Compras de articulos artesanales (Bono de 5.000 COP)
--Siembra un arbol (Bono de 8.000 COP)
--Visitar un lugar en bicicleta - Distancia >= 10km (Bono de 1.000 COP)
--Visitar un lugar en bicicleta - Distancia >= 20km (Bono de 2.000 COP)
--Visitar un lugar en bicicleta - Distancia >= 30km (Bono de 3.000 COP)
--Ofrenda religiosa (Bono de 2.000 COP)
+- Recoger basuras (Bono de 5.000 COP)
+- Compras de articulos artesanales (Bono de 5.000 COP)
+- Siembra un arbol (Bono de 8.000 COP)
+- Visitar un lugar en bicicleta - Distancia >= 10km (Bono de 1.000 COP)
+- Visitar un lugar en bicicleta - Distancia >= 20km (Bono de 2.000 COP)
+- Visitar un lugar en bicicleta - Distancia >= 30km (Bono de 3.000 COP)
+- Ofrenda religiosa (Bono de 2.000 COP)
 
 ## 3. Nuestra Solucion
 
@@ -39,29 +39,29 @@ Un directorio donde las personas puedan ver las festividades,en general todo lo 
 
 ### PageTour Estaria organizado asi:
 
-*los dueños de los lugares turisticos podran crear sus perfiles y administrar la informacion del lugar o servicio turistico, podran exponer sus servicios y gestionar reservaciones.
+* los dueños de los lugares turisticos podran crear sus perfiles y administrar la informacion del lugar o servicio turistico, podran exponer sus servicios y gestionar reservaciones.
 
-*Los turistas podran crear sus perfiles para ver la informacion completa, enfocada en sus gustos y lugares anteriormente visitados.Tambien podrar registrar y redimidir sus Bonos, adicionalemnte podran hacer reservaciones y comunicarse con el duenno del lugar turistico.
+* Los turistas podran crear sus perfiles para ver la informacion completa, enfocada en sus gustos y lugares anteriormente visitados.Tambien podrar registrar y redimidir sus Bonos, adicionalemnte podran hacer reservaciones y comunicarse con el duenno del lugar turistico.
 
-*Ferias y fiestas
+* Ferias y fiestas
 
-*Crear perfiles para los responsables de cada zona
--Policia
--Oficina de turismo
--Hospitales y emergencias
--Transporte local seguro
--Bancos locales
+* Crear perfiles para los responsables de cada zona
+- Policia
+- Oficina de turismo
+- Hospitales y emergencias
+- Transporte local seguro
+- Bancos locales
 
-*Opciones de toures
--Tour Regional
--Tour Municipal
+* Opciones de toures
+- Tour Regional
+- Tour Municipal
  
- ## 5. Estado del arte
+ ## 4. Estado del arte
 Actualmente existe una aplicación llamada ColombiaTravel la cual brinda un calendario de festividades, información de hoteles, restaurantesy lugares turísticos.
 
 El valor agregado de PageTour es que permitirá vender servicios turísticos, es decir, no sólo ver la información sino también interactuar y reservar. La idea de PageTour es prestar un servicio integral de información y adicionalmente la interacción con servicios que diferentes entidades pueden prestar.
 
-### Herramientas de desarrollo
+## 5. Herramientas de desarrollo
 
 Dillinger uses a number of open source projects to work properly:
 
@@ -78,7 +78,7 @@ Dillinger uses a number of open source projects to work properly:
 And of course Dillinger itself is open source with a [public repository][dill]
  on GitHub.
  
- ### Plugins usados
+ #### 5.1 Plugins usados
 
 Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
@@ -91,30 +91,20 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
-### Equipo de desarrollo
+#### 5.2 WorkFlow - Branches :octocat:
 
-*Jose Manuel Echeverri Palacio
-*Santiago Quintero
-*Duvan
+- Rama Master
+- Rama por features
+- Rama de integracion Development
 
-### Installation
+## 6. Equipo de desarrollo
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+* Jose Manuel Echeverri Palacio
+* Santiago Quintero
+* Duvan
+* Neider Carillo
 
-Install the dependencies and devDependencies and start the server.
-
-```sh
-$ cd dillinger
-$ npm install -d
-$ node app
-```
-
-For production environments...
-
-```sh
-$ npm install --production
-$ NODE_ENV=production node app
-```
+## 7. Instalacion
 
 
 
