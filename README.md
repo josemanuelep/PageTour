@@ -22,6 +22,8 @@ Aplicativos de esta indole son perfectos para incentivar acciones por el clima, 
 * [OBJETIVO 14: VIDA SUBMARINA](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-14-life-below-water.html)
 * [OBJETIVO 15: VIDA DE ECOSISTEMAS TERRESTRES](https://www.undp.org/content/undp/es/home/sustainable-development-goals/goal-15-life-on-land.html)
 
+### Propuesta de valor 2.1.
+
 La idea es dar puntos redimibles en servicios turisticos de la zona donde el turista o visitante que cumpla algunos objetivos relacionados con lo anterior aplicados a la zona que visita.
 
 💵💵💵💵💵
@@ -56,8 +58,10 @@ Un directorio donde las personas puedan ver las festividades,en general todo lo 
 - Hospitales y emergencias
 - Transporte local seguro
 - Bancos locales
+- Entre otros
 
 ### Opciones de toures
+
 - Tour Regional
 - Tour Municipal
  
@@ -76,11 +80,10 @@ El valor agregado de PageTour es que permitirá vender servicios turísticos, es
 ### 5.1 FrontEnd
 
 * React.js
-* Node.js
 * HTML
 * CSS responsive
 * Vanilla JavaScript
-* [jQuery] - duh
+* [jQuery]
 
 ### 5.2 Backend
 
@@ -102,9 +105,10 @@ El valor agregado de PageTour es que permitirá vender servicios turísticos, es
 - Rama Master
 - Rama por features
 - Rama de integracion Development
-- Si es necesario crear un rama para el primer Release.
 
-Nota: De acuerdo a la funcionalidad y al numero de cambios 
+** Nota importante"
+Para la integracion de ramas se debe proceder con un pull request y una correcta revison del estado del codigo por parte de todo el equipo.
+
 
 ## 6. Equipo de desarrollo
 
