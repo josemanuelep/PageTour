@@ -1,13 +1,13 @@
 # PageTour 🌏☀️
 
 
-## 1. Planteamiento del problema
+## 1. Planteamiento del problema 😵
 
 No existe un aplicativo web que brinde informacion exacta, especifica y con un toque cultural a los visitantes que van a  ciudades, playas, pueblos, corregimientos e incluso veredas. La informacion que encuentras en las redes sociales, paginas y peculiarmenete en una pagina web propia del gobierno de Colombia y soportada por [PROCOLOMBIA](http://www.procolombia.co/) llamada [Colombia Travel](http://www.colombia.travel), esta mal organizada y de alguna manera muy en general, alli basicamente solo puedes visualizar informacion y obtener ayuda turistica 📍.
 
 Otro problema que se logra evidenciar es que  los turistas sólo van a lugares muy conocidos y/o populares en vez  de  visitar otros terriotorios a los que probablemente les pueda interesar segun sus ultimas paradas turisticas, mas no conocian.
 
-## 2. Justificación
+## 2. Justificación 💡
 
 El proyecto principalmente se realiza para mejorar la actividad turística en diferentes lugares, brindando una mejora de ingresos en dichas zonas. Se busca aumentar el número de turistas y adicionalmente que se conozcan más lugares que tienen potencial turístico, lo que aumentaría la oferta turística.
 
@@ -24,6 +24,8 @@ Aplicativos de esta indole son perfectos para incentivar acciones por el clima, 
 
 La idea es dar puntos redimibles en servicios turisticos de la zona donde el turista o visitante que cumpla algunos objetivos relacionados con lo anterior aplicados a la zona que visita.
 
+💵💵💵💵💵
+
 - Recoger basuras (Bono de 5.000 COP)
 - Compras de articulos artesanales (Bono de 5.000 COP)
 - Siembra un arbol (Bono de 8.000 COP)
@@ -32,7 +34,7 @@ La idea es dar puntos redimibles en servicios turisticos de la zona donde el tur
 - Visitar un lugar en bicicleta - Distancia >= 30km (Bono de 3.000 COP)
 - Ofrenda religiosa (Bono de 2.000 COP)
 
-## 3. Nuestra Solucion
+## 3. Nuestra Solucion 
 
 Aplicación turística a nivel municipal y de ciudad.La idea consiste en una especie de directorio turístico para los municipios y/o ciudades.En este directorio habrían guías turísticas, lugares por visitar , lugares donde comer , donde dormir... Etc.
 Un directorio donde las personas puedan ver las festividades,en general todo lo que un turista necesitaría.
@@ -45,7 +47,10 @@ Un directorio donde las personas puedan ver las festividades,en general todo lo 
 
 ### Ferias y fiestas
 
-### Crear perfiles para los responsables de cada zona
+### Turismo Religioso
+
+### Crear perfiles para los responsables de cada zona para obtener ayuda 
+
 - Policia
 - Oficina de turismo
 - Hospitales y emergencias
@@ -64,17 +69,23 @@ El valor agregado de PageTour es que permitirá vender servicios turísticos, es
 
 ## 5. Herramientas de desarrollo
 
-Dillinger uses a number of open source projects to work properly:
-
 * Github para el repositorio
 * Visual Code Editor
 * Git local
-* Node.js
+
+### 5.1 FrontEnd
+
 * React.js
+* Node.js
 * HTML
 * CSS responsive
 * Vanilla JavaScript
 * [jQuery] - duh
+
+### 5.2 Backend
+
+* MongoDB
+* Node.js
 
  #### 5.1 Plugins usados
 
@@ -97,12 +108,16 @@ Nota: De acuerdo a la funcionalidad y al numero de cambios
 
 ## 6. Equipo de desarrollo
 
-* Jose Manuel Echeverri Palacio
-* Santiago Quintero
-* Duvan
-* Neider Carillo
+* Jose Manuel Echeverri Palacio (Product Owner)
+* Santiago Quintero (Scrum master)
+* Neider Carrillo Vera (Desarrollador)
+* Duvan Giraldo Duque
 
 ## 7. Instalacion
+
+Proximanmente...
+
+## 8. Mockups
 
 Proximanmente...
 
