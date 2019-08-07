@@ -72,4 +72,11 @@ La idea es dar puntos redimibles en servicios turisticos de la zona donde el tur
 - Visitar un lugar en bicicleta - Distancia >= 30km (Bono de 3.000 COP)
 - Ofrenda religiosa (Bono de 2.000 COP)
 
-na pagina web propia del gobierno de Colombia y soportada por [PROCOLOMBIA](http://www.procolombia.co/) llamada [Colombia Travel](http://www.colombia.travel), esta mal organizada y de alguna manera muy en general, alli basicamente solo puedes visualizar informacion y obtener ayuda turistica 📍.
+
+## 5. Estado del arte 
+
+Existe pagina web propia del gobierno de Colombia y soportada por [PROCOLOMBIA](http://www.procolombia.co/) llamada [Colombia Travel](http://www.colombia.travel), esta mal organizada y de alguna manera muy en general, alli basicamente solo puedes visualizar informacion y obtener ayuda turistica 📍.
+
+Esta pagina tiene mucha informacion, es completa y propia para los turistas, pero esta mal organizada y la informacion avaces no se muestra bien.
+
+Por otra parte no existe un login o registro, lo cual no permite una personalizacion de nuestros gustos turisticos. Por otra parte no hay perfiles oficiales o maneras de tener una comunicacion segura con entidades importantes para un turista.
