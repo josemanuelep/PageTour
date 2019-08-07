@@ -37,3 +37,8 @@ Un directorio donde las personas puedan ver las festividades,en general todo lo 
 - Tour Regional
 - Tour Municipal
 
+## 3. Planteamiento del problema 😵
+
+No existe un aplicativo web que brinde informacion exacta, especifica y con un toque cultural a los visitantes que van a  ciudades, playas, pueblos, corregimientos e incluso veredas. La informacion que encuentras en las redes sociales, paginas y peculiarmenete en una pagina web propia del gobierno de Colombia y soportada por [PROCOLOMBIA](http://www.procolombia.co/) llamada [Colombia Travel](http://www.colombia.travel), esta mal organizada y de alguna manera muy en general, alli basicamente solo puedes visualizar informacion y obtener ayuda turistica 📍.
+
+Otro problema que se logra evidenciar es que  los turistas sólo van a lugares muy conocidos y/o populares en vez  de  visitar otros terriotorios a los que probablemente les pueda interesar segun sus ultimas paradas turisticas, mas no conocian.
