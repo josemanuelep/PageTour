@@ -91,3 +91,4 @@ Desarrollar una aplicacion turistica en forma de directorio, que permita crear u
 - Crear una interaccion entre los actores en la accion turistica.
 - Motivar a los turistas y locales al consumo responsable, al deporte y al cuidado del medio ambiente por medio de la creacion de una cultura turistica propia de PageTour.
 - Crear asociaciones en conjunto con las alcaldias y lugares turisticos del pais.
+- Generar ingresos a los locales y darle valor agregado a sus actividades turisticass
