@@ -1,6 +1,7 @@
 # PageTour 🌏☀️
 
 ## 1. Introducción :bulb: :bulb:
+
 No existe un aplicativo web que brinde informacion exacta, especifica y con un toque cultural a los visitantes que van a ciudades, playas, pueblos, corregimientos e incluso veredas. La informacion que encuentras en las redes sociales, paginas y peculiarmenete en una pagina web propia del gobierno de Colombia y soportada por PROCOLOMBIA llamada Colombia Travel, esta mal organizada y de alguna manera muy en general, alli basicamente solo puedes visualizar informacion y obtener ayuda turistica round_pushpin.
 
 El turismo es indispensable en muchas regiones, por otro lado el potencial turistico y biodiverso del pais es considerable, en otras palabras, es necesario incentivar el turismo desde el punto de vista de pais, departamento, pueblo, corregimientos y veredas. El turismo puede llegar a todos lados y dejar grandes beneficios a los locales de cada zona.
@@ -13,29 +14,6 @@ Motivar a los turistas y locales no es la unica tarea importante, es mas importa
 Aplicación turística a nivel municipal y de ciudad.La idea consiste en una especie de directorio turístico para los municipios y/o ciudades.En este directorio habrían guías turísticas, lugares por visitar , lugares donde comer , donde dormir... Etc.
 Un directorio donde las personas puedan ver las festividades,en general todo lo que un turista necesitaría.
 
-### PageTour Estaria organizado asi:
-
-* los dueños de los lugares turisticos podran crear sus perfiles y administrar la informacion del lugar o servicio turistico, podran exponer sus servicios y gestionar reservaciones.
-
-* Los turistas podran crear sus perfiles para ver la informacion completa, enfocada en sus gustos y lugares anteriormente visitados.Tambien podrar registrar y redimidir sus Bonos, adicionalemnte podran hacer reservaciones y comunicarse con el duenno del lugar turistico.
-
-### Ferias y fiestas
-
-### Turismo Religioso
-
-### Crear perfiles para los responsables de cada zona para obtener ayuda 
-
-- Policia
-- Oficina de turismo
-- Hospitales y emergencias
-- Transporte local seguro
-- Bancos locales
-- Entre otros
-
-### Opciones de toures
-
-- Tour Regional
-- Tour Municipal
 
 ## 3. Planteamiento del problema 😵
 
@@ -91,4 +69,36 @@ Desarrollar una aplicacion turistica en forma de directorio, que permita crear u
 - Crear una interaccion entre los actores en la accion turistica.
 - Motivar a los turistas y locales al consumo responsable, al deporte y al cuidado del medio ambiente por medio de la creacion de una cultura turistica propia de PageTour.
 - Crear asociaciones en conjunto con las alcaldias y lugares turisticos del pais.
-- Generar ingresos a los locales y darle valor agregado a sus actividades turisticass
+- Generar ingresos a los locales y darle valor agregado a sus actividades turisticas
+
+## 8. Descripción de la aplicación
+
+### PageTour Estaria organizado asi:
+
+* los dueños de los lugares turisticos podran crear sus perfiles y administrar la informacion del lugar o servicio turistico, podran exponer sus servicios y gestionar reservaciones.
+
+* Los turistas podran crear sus perfiles para ver la informacion completa, enfocada en sus gustos y lugares anteriormente visitados.Tambien podrar registrar y redimidir sus Bonos, adicionalemnte podran hacer reservaciones y comunicarse con el duenno del lugar turistico.
+
+### Ferias y fiestas
+
+### Turismo Religioso
+
+### Crear perfiles para los responsables de cada zona para obtener ayuda 
+
+- Policia
+- Oficina de turismo
+- Hospitales y emergencias
+- Transporte local seguro
+- Bancos locales
+- Entre otros
+
+### Opciones de toures
+
+- Tour Regional
+- Tour Municipal
+
+## 9. Bibliografía
+
+- http://www.colombia.travel/es
+- https://id.presidencia.gov.co/Paginas/presidencia.aspx
+- http://www.procolombia.co/
