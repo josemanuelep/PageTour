@@ -80,3 +80,14 @@ Existe pagina web propia del gobierno de Colombia y soportada por [PROCOLOMBIA](
 Esta pagina tiene mucha informacion, es completa y propia para los turistas, pero esta mal organizada y la informacion avaces no se muestra bien.
 
 Por otra parte no existe un login o registro, lo cual no permite una personalizacion de nuestros gustos turisticos. Por otra parte no hay perfiles oficiales o maneras de tener una comunicacion segura con entidades importantes para un turista.
+
+## 6. Objetivo general
+
+Desarrollar una aplicacion turistica en forma de directorio, que permita crear una intereacion entre los turistas y los duennos de lugares turisticos.
+
+## 7. Objetivos específicos
+
+- Incentivar el turismo en lugares poco populares turisticamente.
+- Crear una interaccion entre los actores en la accion turistica.
+- Motivar a los turistas y locales al consumo responsable, al deporte y al cuidado del medio ambiente por medio de la creacion de una cultura turistica propia de PageTour.
+- Crear asociaciones en conjunto con las alcaldias y lugares turisticos del pais.
