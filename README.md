@@ -86,3 +86,8 @@ Por otra parte no existe un login o registro, lo cual no permite una personaliza
 Desarrollar una aplicacion turistica en forma de directorio, que permita crear una intereacion entre los turistas y los duennos de lugares turisticos.
 
 ## 7. Objetivos específicos
+
+- Incentivar el turismo en lugares poco populares turisticamente.
+- Crear una interaccion entre los actores en la accion turistica.
+- Motivar a los turistas y locales al consumo responsable, al deporte y al cuidado del medio ambiente por medio de la creacion de una cultura turistica propia de PageTour.
+- Crear asociaciones en conjunto con las alcaldias y lugares turisticos del pais.
