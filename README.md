@@ -97,6 +97,14 @@ Desarrollar una aplicacion turistica en forma de directorio, que permita crear u
 - Tour Regional
 - Tour Municipal
 
+## 8.1. Mockup
+
+[Link del Mockuo Tour](https://marvelapp.com/iebbcij)
+
+- Codigo QR del Mockup
+
+[Imgur](https://i.imgur.com/ORfwnDl.png)
+
 ## 9. Bibliografía
 
 - http://www.colombia.travel/es
