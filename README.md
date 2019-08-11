@@ -1,4 +1,6 @@
-# PageTour 🌏☀️
+![QR](https://i.imgur.com/NkXDF6i.png "Logo Page tour")
+
+
 
 ## 1. Introducción :bulb: :bulb:
 
