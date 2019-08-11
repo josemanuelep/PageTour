@@ -103,7 +103,8 @@ Desarrollar una aplicacion turistica en forma de directorio, que permita crear u
 
 - Codigo QR del Mockup
 
-[Imgur](https://i.imgur.com/ORfwnDl.png)
+![QR](https://i.imgur.com/ORfwnDl.png "Título alternativo")
+
 
 ## 9. Bibliografía
 
