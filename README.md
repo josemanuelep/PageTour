@@ -99,7 +99,7 @@ Desarrollar una aplicacion turistica en forma de directorio, que permita crear u
 
 ## 8.1. Mockup
 
-[Link del Mockuo Tour](https://marvelapp.com/iebbcij)
+[Link del Mockup Page Tour](https://marvelapp.com/iebbcij)
 
 - Codigo QR del Mockup
 
