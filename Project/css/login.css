@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after{
+
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/fondo.jpg) no-repeat fixed top left;
+    background-size: 100vw;
+}
+
+.header{
+    background-color: #FFBA5C;
+    height: 50px;
+}
+
+.main{
+
+    width: 40%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
