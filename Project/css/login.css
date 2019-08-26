@@ -30,16 +30,7 @@ body{
 @media screen and (max-width: 800px){
     .main{
         width: 90%;
-        align-self: flex-start;
     }
-}
-
-@media screen and (max-width: 600px){
-    .main{
-        width: 90%;
-        align-self: center;
-    }
-
     body{
         background-size: 100vw 100vh;
         background-color: #007bff;
