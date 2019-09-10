@@ -1,0 +1,47 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <title>Registro de turistas</title>
+</head>
+
+<body>
+    
+    <main class="main">
+        <form>
+
+            <div class="form-group">
+                <label for="nombreUsuario">Nombre</label>
+                <input type="text" class="form-control" id="nombreUsuario"  placeholder="Nombre completo" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="correoElectronico">Correo electrónico</label>
+                <input type="email" class="form-control" id="correoElectronico" aria-describedby="emailHelp" placeholder="Correo" required>
+            </div>
+            <div class="form-group">
+                <label for="fechaNacimiento">Fecha de nacimiento</label>
+                <input type="date" class="form-control" id="fechaNacimiento" required>
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" class="form-control" id="contrasena" placeholder="Contraseña" required>
+            </div>
+            <div class="form-group">
+                <label for="confContrasena">Confirmar contraseña</label>
+                <input type="password" class="form-control" id="confContrasena" placeholder="Confirmar contraseña" required>
+            </div>
+            <div class="form-group">
+                <label for="numeroCelular">Numero de celular</label>
+                <input type="number" class="form-control" id="numeroCelular" placeholder="Número de contacto" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Registrarme</button>        
+                   
+        </form>
+    </main>
+ 
+</body>

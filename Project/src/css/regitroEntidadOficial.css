@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after{
+
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/entidades-oficiales.jpg) no-repeat fixed top left;
+    background-size: 100vw;
+}

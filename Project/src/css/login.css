@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url(../img/fondo.jpg) no-repeat fixed top left;
+    background-image: url(../img/fondo.jpg);  
     background-size: 100vw;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body{
 
 .main{
     align-self: center;
-    max-height: 500px;
+    max-height: 800px;
     width: 40%;
     background-color: white;
     border-radius: 20px;
@@ -36,3 +36,4 @@ body{
         background-color: #007bff;
     }
 }
+
