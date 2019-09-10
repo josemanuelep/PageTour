@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="css/registros.css">
-    <title>Registro entidad oficial</title>
+    <title>Registro Lugar Turístico</title>
 </head>
 <body>
     <main class="main">
@@ -25,37 +25,42 @@
                   <a class="nav-link" href="#">Inicio</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Registro de entidad oficial</span></a>
+                    <a class="nav-link" href="#">Registro de lugares turísticos</span></a>
                   </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Términos y condiciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Importancia de las entidades oficiales</a>
+                    <a class="nav-link" href="#">Importancia de los lugares turísticos</a>
                 </li>
               </ul>
             </div>
           </nav>
-          <div class="jumbotron bg-warning text-dark">
-              <h1 class="display-3">Registro de entidades oficiales</h1>
-              <p class="lead">Para PageTour es indispensable tener aquí las entidades oficiales</p>
+          <div class="jumbotron bg-primary text-light">
+              <h1 class="display-3">Registro de lugares turísticos</h1>
+              <p class="lead">Para PageTour es indispensable tener aquí los lugares turísticos</p>
               <hr class="my-4">
               <p>Registrala y comienza a ayudar a los turistas</p>
-              <a class="btn btn-primary btn-lg" href="#" role="button">Aprender más</a>
+              <a class="btn btn-warning btn-lg" href="#" role="button">Aprender más</a>
             </div>
             <div class="container">
 
                 <form class="text-primary">
                     <div class="form-row">
                       <div class="col-md-4 mb-3">
-                          <label for="validationDefault02">Entidad</label>
-                          <select id="list-dependencias" class="custom-select">
-                            <option selected>Seleccione una entidad oficial</option>
+                          <label for="validationDefault02">Nombre del lugar</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Nombre" required>
                           </select>                            
                       </div>
-                      <div class="col-md-4 mb-3">
-                        <label for="validationDefault02">Nombre del encargado</label>
-                        <input type="text" class="form-control" id="validationDefault02" placeholder="Nombre" required>
+                      <div class="dropdown bajar">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownTipoLugar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Tipo de lugar
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item" type="button">Natural</button>
+                          <button class="dropdown-item" type="button">Histórico</button>
+                          <button class="dropdown-item" type="button">Religioso</button>
+                        </div>
                       </div>
                       <div class="col-md-4 mb-3">
                         <label for="validationDefaultUsername">Correo electronico</label>
