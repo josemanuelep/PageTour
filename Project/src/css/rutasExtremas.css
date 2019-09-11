@@ -1,0 +1,10 @@
+*,
+*::before,
+*::after{
+
+    box-sizing: border-box;
+}
+
+.styleCard{
+    margin-bottom: 15px
+}
