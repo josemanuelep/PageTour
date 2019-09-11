@@ -8,3 +8,17 @@
 body{
     background-color: white;
 }
+
+.bajar{
+    margin: 32px 10px;
+}
+
+.divRadioBoton{
+    margin-top: 3px;
+    margin-left: 25px;
+}
+
+.botonGPS{
+    margin-top: 32px;
+    margin-left: 35px;
+}
