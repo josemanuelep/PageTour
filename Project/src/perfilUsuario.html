@@ -15,38 +15,125 @@
 
     <body>
         <main class="main">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav class="navbar navbar-expand-lg navbar-light
+                bg-danger">
                 <a class="navbar-brand" href="#">
-                    <img src="img/Logo.png" width="30" height="45" class="d-inline-block align-top" alt="">
+                    <img src="img/Logo.png" style="border-radius: 20px"
+                        width="80" height="80" class="d-inline-block align-top"
+                        alt="">
                 </a>
-                <a class="navbar-brand" href="#">PageTour</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item text-light">
-                            <a class="nav-link active" href="#">Mi perfil</span></a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Mi perfil <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Departamentos</span></a>
+                            <a class="nav-link" href="#">Lugares Visitados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Departamentos</span></a>
+                            <a class="nav-link" href="#">Favoritos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Departamentos</span></a>
+                            <a class="nav-link" href="#">Lugares recomendados</a>
                         </li>
-                        <form class="form-inline ml-5 my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Busca un destino o categoria"
-                                aria-label="Search">
-                            <button class="btn btn-outline-war my-2 my-sm-0 text-light" type="submit">Buscar</button>
-                        </form>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bonos redimibles</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
+            <div class="jumbotron bg-primary text-light font-weight-bolder">
+                <h1 class="display-4">Bienvenido de nuevo!</h1>
+                <p class="lead">Pagetour quiere conectarte con los mejores
+                    lugares.</p>
+                <hr class="my-4">
+                <p>Recuerda ir en busca de los bonos redimibles, es una manera
+                    de
+                    hacer turismo responsable</p>
+            </div>
+            <div class="container">
+                <form class="text-primary">
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault03">Nombre</label>
+                            <input type="text" class="form-control"
+                                id="validationDefault02" placeholder="Nombre"
+                                required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault02">Apellidos</label>
+                            <input type="text" class="form-control"
+                                id="validationDefault02" placeholder="Apellidos"
+                                required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefaultUsername">Correo
+                                electronico</label>
+                            <input type="email" class="form-control"
+                                id="validationDefault02" placeholder="Correo"
+                                required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault03">Tipo de documento</label>
+                            <select class="custom-select">
+                                <option selected></option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault02">Número de documento</label>
+                            <input type="number" class="form-control"
+                                id="validationDefault02" placeholder="Número de
+                                documento"
+                                required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault05">Teléfono</label>
+                            <input type="number" class="form-control"
+                                id="validationDefault05" placeholder="Teléfono"
+                                required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault05">Confirmar
+                                contraseña</label>
+                            <input type="password" class="form-control"
+                                id="validationDefault05" placeholder="******"
+                                required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"
+                                id="invalidCheck2" required>
+                            <label class="form-check-label" for="invalidCheck2">
+                                Acepto los términos y condiciones
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Actualizar
+                        Perfil</button>
+                    <footer class="my-5 pt-5 text-muted text-center text-small">
+                        <p class="mb-1">© 2019 PageTour</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Privacidad</a></li>
+                            <li class="list-inline-item"><a href="#">Terminos y
+                                    condiciones</a></li>
+                            <li class="list-inline-item"><a href="#">Ayuda</a></li>
+                            <li class="list-inline-item"><a href="#">Contactos</a></li>
+                        </ul>
+                    </footer>
+                </form>
+            </div>
         </main>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
