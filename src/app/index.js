@@ -6,7 +6,7 @@ import RegistroEntidad from './components/RegistroEntidad'
 
 
 
-render(<RegistroEntidad />, document.getElementById('app'));
+render(<RegistroTurista />, document.getElementById('app'));
 
 
 
