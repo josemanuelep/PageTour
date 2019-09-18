@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button,Container, Row } from 'react-bootstrap';
 
 class CardTopLugares extends Component {
 
@@ -9,7 +8,7 @@ class CardTopLugares extends Component {
       nombre: '',
       tipo_lugar: '',
       _id: '',
-      descipcion :'',
+      descipcion: '',
       bonos_disponibles: []
     };
     // this.handleChange = this.handleChange.bind(this);
@@ -17,54 +16,70 @@ class CardTopLugares extends Component {
   }
 
   render() {
-    return(
-    <Container>
-        <CardDeck>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-</CardDeck>
-  
-    </Container>
-
-    )
+    return (
+      <div>
+        <div className="jumbotron bg-warning text-danger">
+          <img src="img/Logo.png" className="rounded float-right pl-5" alt="..."></img>
+          <h1 className="display-3">Registrate como turista y comienza a conocer los
+        lugares mas bonitos de Colombia</h1>
+          <p className="lead">Si eres dueño de un lugar, atraccion o pasaje turistico
+            registratra el lugar para que empeicen a visitarlos. Te
+        invitamos a ver nuestros planes.</p>
+          <p>Registrala y comienza a ayudar a los turistas</p>
+          <hr className="my-4"></hr>
+          <p className="text-right mt-5">Page Tour recolecta tu comportamieto y tus utlimos </p>
+          <p className="text-right">lugares visitados para entregartes posibles destinos que vas a disfrutar al máximo.</p>
+        </div>
+        <div className="container bg-danger p-5">
+          <h2 className="text-center text-white mb-5 font-weight-bold">Top lugares</h2>
+          <div className="card-deck">
+            <div className="card">
+              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <a href="#" className="btn btn-primary">Ampliar</a>
+              </div>
+            </div>
+            <div className="card">
+              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <a href="#" className="btn btn-primary">Ampliar</a>
+              </div>
+            </div>
+            <div className="card">
+              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <a href="#" className="btn btn-primary">Ampliar</a>
+              </div>
+            </div>
+          </div>
+          <hr className="my-4"></hr>
+          <nav aria-label="Page navigation example mt-5">
+            <ul className="pagination justify-content-center">
+              <li className="page-item disabled">
+                <a className="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li className="page-item"><a className="page-link" href="#">1</a></li>
+              <li className="page-item"><a className="page-link" href="#">2</a></li>
+              <li className="page-item"><a className="page-link" href="#">3</a></li>
+              <li className="page-item">
+                <a className="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    );
   }
 }
 
