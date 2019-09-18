@@ -40,7 +40,7 @@ class CardTopLugares extends Component {
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional
                 content. This content is a little bit longer.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Ampliar</a>
+                <a id="btn-ampliar" className="btn btn-primary">Ampliar</a>
               </div>
             </div>
             <div className="card">
