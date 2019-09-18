@@ -7,7 +7,8 @@ import Precios from './components/Precios';
 import RutasExtremas from './components/RutasExtremas';
 import AmpliacionLugar from './components/AmpliacionLugar';
 import FormularioQuejas from './components/FormularioQuejas';
+import Principal from './components/Principal';
 
 
 
-render(<FormularioQuejas />, document.getElementById('app'));
+render(<Principal />, document.getElementById('app'));
