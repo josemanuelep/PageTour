@@ -1,18 +1,46 @@
 import React, { Component } from 'react';
 
 class RegistroEntidad extends Component {
-
     constructor() {
         super();
         this.state = {
-            nombre: '',
-            tipo_lugar: '',
-            _id: '',
-            descipcion: '',
-            bonos_disponibles: []
+            departamentos: [],
+            municipios: []
         };
-        // this.handleChange = this.handleChange.bind(this);
-        // this.addTask = this.addTask.bind(this);
+
+    }
+    componentDidMount() {
+        this.fetchDepartments();
+    }
+
+    fetchDepartments() {
+        fetch('https://www.datos.gov.co/resource/xdk5-pm3f.json?$query=select distinct departamento')
+            .then(response => response.json())
+            .then((jsonData) => {
+                // jsonData is parsed json object received from url
+                this.setState({ departamentos: jsonData });
+            })
+            .catch((error) => {
+                // handle your errors here
+                console.error(error)
+            })
+    }
+
+    handleChange(e) {
+
+        const dep = e.target.value;
+
+        fetch('https://www.datos.gov.co/resource/xdk5-pm3f.json?departamento=' + dep)
+            .then(response => response.json())
+            .then((jsonData) => {
+                // jsonData is parsed json object received from url
+                // this.setState({ municipios: jsonData });
+            })
+            .catch((error) => {
+                // handle your errors here
+                console.error(error)
+            })
+
     }
 
     render() {
@@ -48,14 +76,20 @@ class RegistroEntidad extends Component {
                         <div className="form-row">
                             <div className="col-md-6 mb-3">
                                 <label for="validationDefault03">Departamento</label>
-                                <select id="list-departamento" className="custom-select">
-                                    <option selected></option>
+                                <select onChange={this.handleChange} id="list-departamento" className="custom-select">
+                                    {
+                                        this.state.departamentos.map(dep => {
+                                            return (
+
+                                                <option>{dep.departamento}</option>
+                                            )
+                                        })
+                                    }
                                 </select>
                             </div>
                             <div className="col-md-3 mb-3">
                                 <label for="validationDefault04">Ciudad</label>
                                 <select id="list-ciudad" className="custom-select">
-                                    <option selected></option>
                                 </select>
                             </div>
                             <div className="col-md-3 mb-3">
