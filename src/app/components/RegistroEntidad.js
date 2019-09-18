@@ -7,7 +7,7 @@ class RegistroEntidad extends Component {
             departamentos: [],
             municipios: []
         };
-
+        this.handleChange = this.handleChange.bind(this);
     }
     componentDidMount() {
         this.fetchDepartments();
@@ -29,20 +29,17 @@ class RegistroEntidad extends Component {
     handleChange(e) {
 
         const dep = e.target.value;
-
         fetch('https://www.datos.gov.co/resource/xdk5-pm3f.json?departamento=' + dep)
             .then(response => response.json())
             .then((jsonData) => {
-                // jsonData is parsed json object received from url
-                // this.setState({ municipios: jsonData });
+
+                this.setState({ municipios: jsonData });
             })
             .catch((error) => {
                 // handle your errors here
                 console.error(error)
             })
-
     }
-
     render() {
         return (
             <div>
@@ -90,6 +87,14 @@ class RegistroEntidad extends Component {
                             <div className="col-md-3 mb-3">
                                 <label for="validationDefault04">Ciudad</label>
                                 <select id="list-ciudad" className="custom-select">
+                                    {
+                                        this.state.municipios.map(mun => {
+                                            return (
+
+                                                <option>{mun.municipio}</option>
+                                            )
+                                        })
+                                    }
                                 </select>
                             </div>
                             <div className="col-md-3 mb-3">
