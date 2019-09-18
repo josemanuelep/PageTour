@@ -8,7 +8,8 @@ import RutasExtremas from './components/RutasExtremas';
 import AmpliacionLugar from './components/AmpliacionLugar';
 import FormularioQuejas from './components/FormularioQuejas';
 import Principal from './components/Principal';
+import PerfilUsuario from './components/PerfilUsuario';
 
 
 
-render(<Principal />, document.getElementById('app'));
+render(<PerfilUsuario />, document.getElementById('app'));
