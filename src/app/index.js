@@ -4,10 +4,8 @@ import CardTopLugares from './components/CardTopLugares';
 import RegistroTurista from './components/RegistroTurista'
 import RegistroEntidad from './components/RegistroEntidad'
 import Precios from './components/Precios';
+import RutasExtremas from './components/RutasExtremas';
 
 
 
-render(<RegistroTurista />, document.getElementById('app'));
-
-
-
+render(<RutasExtremas />, document.getElementById('app'));
