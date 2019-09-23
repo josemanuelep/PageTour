@@ -1,0 +1,7 @@
+Informacion de la Base de Datos para el proyecto Pagetour
+
+username: developer , santi_quintero
+pass : pagetour2019 , 123456
+nombre de la bd:PageTour
+
+Cluster en Mogo Atlas : pagetour-shard-00-00-ucdqg.mongodb.net
