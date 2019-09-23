@@ -1,3 +1,5 @@
+const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
+
 module.exports = {
   entry: './src/app/index.js',
   output: {

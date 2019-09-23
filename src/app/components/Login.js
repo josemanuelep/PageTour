@@ -6,8 +6,9 @@ class Login extends Component {
     render() {
         return (
             <div>
-                <main className="main">
-
+                <br></br>
+                <br></br>
+                <main className="container">
                     <form>
                         <div className="form-group">
                             <label for="exampleInputEmail1">Correo electrónico</label>
@@ -30,9 +31,12 @@ class Login extends Component {
                             <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"></input>
                             <label className="form-check-label" for="inlineRadio3">Turista</label>
                         </div>
-                        <button type="submit" className="btn btn-primary">Ingresar</button>
+                        <br></br>
+                        <br></br>
+                        <div>
+                            <button type="submit" className="btn btn-primary">Ingresar</button>
+                        </div>
                     </form>
-
                 </main>
             </div>
         );
