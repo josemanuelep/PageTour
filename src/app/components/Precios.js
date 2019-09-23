@@ -15,7 +15,7 @@ class Precios extends Component {
                     <div className="card-deck mb-3 text-center">
                         <div className="card mb-4 shadow-sm">
                             <div className="card-header">
-                                <h4 className="my-0 font-weight-normal">La vida de su mamá</h4>
+                                <h4 className="my-0 font-weight-normal">Free</h4>
                             </div>
                             <div className="card-body">
                                 <h1 className="card-title pricing-card-title">$0 <small className="text-muted">/ mes</small></h1>
