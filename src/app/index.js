@@ -19,13 +19,13 @@ const btnQueja = document.getElementById('btn-queja');
 const btnExtremo = document.getElementById('btn-extremo');
 const btnAmpliar = document.getElementById('btn-ampliar');
 
-render(<Login />, document.getElementById('app'));
+render(<Principal />, document.getElementById('app'));
 //Acciones de los botones
-/*btnPrincipal.addEventListener("click", () => { render(<Principal />, document.getElementById('app')); });
+btnPrincipal.addEventListener("click", () => { render(<Principal />, document.getElementById('app')); });
 btnRegistroTurista.addEventListener("click", () => { render(<RegistroTurista />, document.getElementById('app')); });
 btnregistroEntidad.addEventListener("click", () => { render(<RegistroEntidad />, document.getElementById('app')); });
 btnPrecios.addEventListener("click", () => { render(<Precios />, document.getElementById('app')); });
 btnQueja.addEventListener("click", () => { render(<FormularioQuejas />, document.getElementById('app')); });
 btnExtremo.addEventListener("click", () => { render(<RutasExtremas />, document.getElementById('app')); });
-btnAmpliar.addEventListener("click", () => { render(<AmpliacionLugar />, document.getElementById('app')); });*/
+btnAmpliar.addEventListener("click", () => { render(<AmpliacionLugar />, document.getElementById('app')); });
 
