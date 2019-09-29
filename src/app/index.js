@@ -19,7 +19,7 @@ const btnQueja = document.getElementById('btn-queja');
 const btnExtremo = document.getElementById('btn-extremo');
 const btnAmpliar = document.getElementById('btn-ampliar');
 
-render(<Principal />, document.getElementById('app'));
+render(<RegistroTurista />, document.getElementById('app'));
 //Acciones de los botones
 btnPrincipal.addEventListener("click", () => { render(<Principal />, document.getElementById('app')); });
 btnRegistroTurista.addEventListener("click", () => { render(<RegistroTurista />, document.getElementById('app')); });
