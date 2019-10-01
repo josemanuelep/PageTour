@@ -15,6 +15,7 @@ app.set('port', process.env.PORT || 3000);
 // Middlewares
 app.use(morgan('dev'));
 app.use(express.json());
+
 app.use(express.urlencoded({extended: false}));
 app.use(methodOverrride('_method'));
 app.use(session({
@@ -27,6 +28,7 @@ app.use(session({
 app.use('/api/tasks', require('./routes/task.routes'));
 app.use(require('./routes/index'));
 app.use(require('./routes/users'));
+
 
 // Static Files
 app.use(express.static(path.join(__dirname, 'public')));;

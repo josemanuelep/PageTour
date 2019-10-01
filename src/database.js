@@ -7,3 +7,4 @@ client.connect(err => {
   console.log("DB is connected");
   client.close();
 });
+
