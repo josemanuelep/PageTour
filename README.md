@@ -1,7 +1,5 @@
 ![QR](https://i.imgur.com/NkXDF6i.png "Logo Page tour")
 
-
-
 ## 1. Introducción :bulb: :bulb:
 
 No existe un aplicativo web que brinde informacion exacta, especifica y con un toque cultural a los visitantes que van a ciudades, playas, pueblos, corregimientos e incluso veredas. La informacion que encuentras en las redes sociales, paginas y peculiarmenete en una pagina web propia del gobierno de Colombia y soportada por PROCOLOMBIA llamada Colombia Travel, esta mal organizada y de alguna manera muy en general, alli basicamente solo puedes visualizar informacion y obtener ayuda turistica round_pushpin.
